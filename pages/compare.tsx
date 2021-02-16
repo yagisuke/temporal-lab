@@ -21,11 +21,11 @@ export default function Page() {
   return (
     <div className="container">
       <Head>
-        <title>日付順にソート | Temporary Lab.</title>
+        <title>2つの日付の比較 | Temporary Lab.</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <h1>日付順にソート</h1>
+        <h1>2つの日付の比較</h1>
         <p>A: {pastDate.toString()}</p>
         <p>B: {featureDate.toString()}</p>
         <p>結果: {result}</p>
